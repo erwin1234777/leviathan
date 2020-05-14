@@ -46,5 +46,7 @@ Administrator is NOT required, though you wont have any permission problems with
 | `n.shouldi`| [Anything] | Like 8ball, it will tell you if you should do something or not. Returns true or false | n.shouldi do my dishes now? |
 | `n.stop`| [Blank] | NOT PUBLIC, kills the bot in an emergency. Alias [n.kill] | n.stop |
 | `n.uptime`| [Blank] | Display the bots uptime | n.uptime |
+| `n.user`| [ID or @User] | Display user info even if they are not in the server | n.user 188836645670223872 |
+
 
 
