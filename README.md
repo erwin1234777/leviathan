@@ -36,7 +36,7 @@ Administrator is NOT required, though you wont have any permission problems with
 | `n.nick`| [Anything] | Changes the bot nickname to whatever you want. Respects discord limits, {2-32} long nick | n.nick Safe For Work Bot |
 | `n.nwaifu`| [Blank] | This is a big command used for building the JSON required to add a new waifu to [Is-Your-Waifu-Legal](https://github.com/yourWaifu/is-your-waifu-legal), it uses [NaN] as a skippeable argument and [,] as a separator | n.nwaifu |
 | `n.pole` | [Amount],[Description], [content1]... | make sure the 1-10 match the amount of things you want in the pole. If you do n.pole 4, its expecting a description + 4 elements | n.pole 3, This is the description/title, this is element 1, element 2, element 3 |
-| `n.purge`| [@User] + [Optional 1-100 messages] | Purges messages based on @user + optional amount. if not set, it will default to 50 messages FETCHED(how far up in chat it goes), NOT deleted | n.purge @Erwin 100 |
+| `n.purge`| [@User] + [Optional 1-100 messages] | Purges messages based on @user + optional amount. if not set, it will default to 50 messages FETCHED(how far up in chat it goes), NOT deleted. Also accepts All/all as a parameter, then it clears all messages in chat | n.purge @Erwin 100 |
 | `n.quote`| [MessageID or MessageLink] | Quotes the message you wanted to be quoted | n.quote 709892147935182849 |
 | `n.random`| [Blank] | Gives you a random Doujinshi to read | n.random |
 | `n.remove`| [Blank] | Removes the channel from whitelist, making the bot not be able to use NSFW commands there anymore | n.remove |
