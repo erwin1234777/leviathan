@@ -6,6 +6,21 @@ This bot is made using Js, using d.js library.
 
 It is a Multiuse bot with tools that can be fun to use in large servers.
 
+#### Admin tools: 
+- Purge commands for user messages
+- Clear bot messages
+
+#### Utility: 
+- User info aswell as account creation date for identifying alts
+- Poll commands
+- Quoter
+- 8Ball/Should i?
+           
+#### Incoming features/Work in Progress:
+- Global Currency that works between Discord Chat and Twitch chat and can be used on both
+- Emotes database so you can use emotes via the bot without nitro
+                     
+
 ### Need support? 
 Click [HERE](https://discord.gg/6QEExsN)
 #### This bot stores the following data: 
