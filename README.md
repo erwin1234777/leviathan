@@ -1,10 +1,10 @@
-# NCulture Bot
+# Leviathan Bot
 
 #### Before we start, THIS BOT IS SAFE FOR WORK. It does have NSFW commands, which will ONLY work in a NSFW channel or a whitelisted channel, by using n.add! You are safe, dont worry.
 Now that's out of the way, heres more details.
 This bot is made using Js, using d.js library. 
 
-It is a Lewd bot and has multi use tools that can be fun to use in large servers.
+It is a Multiuse bot with tools that can be fun to use in large servers.
 
 ### Need support? 
 Click [HERE](https://discord.gg/6QEExsN)
