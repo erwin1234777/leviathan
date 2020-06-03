@@ -24,9 +24,11 @@ It is a Multiuse bot with tools that can be fun to use in large servers.
 ### Need support? 
 Click [HERE](https://discord.gg/6QEExsN)
 #### This bot stores the following data: 
--The Channel ID(which is used for whitelist and ONLY added when you do n.add) 
+- The Channel ID(which is used for whitelist and ONLY added when you do n.add) 
+- Emotes that you post in chat
+- Amount of times you used the commands (analytics) 
 
-## Add this bot to your server! 
+# Add this bot to your server! 
 Simply click [HERE](https://discordapp.com/oauth2/authorize?client_id=679343193845661716&scope=bot&permissions=1543892089) to add it.
 
 Remove permission Administrator if you wish, or leave it as is.
