@@ -17,7 +17,12 @@ It is a Multiuse bot with tools that can be fun to use in large servers.
 - Poll commands
 - Quoter
 - 8Ball/Should i?
-           
+
+#### Currency/Minigames:
+- Balance
+- Gamble
+- Boss Fights
+
 #### Incoming features/Work in Progress:
 - Global Currency that works between Discord Chat and Twitch chat and can be used on both
 - Emotes database so you can use emotes via the bot without nitro
@@ -42,13 +47,20 @@ Administrator is NOT required, though you wont have any permission problems with
 | --------|----------|--------------------------------|---------|
 | `:eyes:`| [Blank] | Sends another :eyes: emote in chat |:eyes:|
 | `n.add`| [Blank] | This add a NON NSFW channel into whitelist. For whatever reason, if you want NSFW in a channel not set NSFW, you can use this to allow bot | n.add |
+| `n.acheck`| [UserID] | NOT PUBLIC, used for checking if player is already registered |n.acheck 188836645670223872|
+ `n.acurrency`| [set/get/add/remove/reset] | NOT PUBLIC, used for setting amount, getting balance, removing currency, adding currency or reseting accounts to 0 |n.set 188836645670223872 300|
+| `n.astatus`| [setstatus/setstream] | NOT PUBLIC, selects one of my status to be shown or stream for link to minigames |n.astatus setstream|
+| `n.balance`| [Optional userid] | checks your current amount of points |n.balance|
+| `n.boss`| [Blank] | Does a boss fight, and earns or loses coins based on it |n.boss|
 | `n.check`| [Blank] | Checks for the bot's permissions and displays it for you |n.check|
 | `n.clear`| [Optional 1-100 messages] | Deletes THIS BOT ONLY messages, also the optional messages is messages FECTHED, not messages DELETED | n.clear 63 |
 | `n.dec`| [Base64 String] | Decodes whatever you typed from Base64 | n.dec VGhpcyBpcyBTVVBFUiBmdW4= |
 | `n.embed`| [Anything] | Sends an embed containing your arguments | n.embed Embeds are cool |
 | `n.enc`| [Anything] | Encodes whatever you typed into Base64 | n.enc This is SUPER fun |
+| `:n.gamble`| [Amuont] | Gambles the amount of points specified |n.gamble 50|
 | `n.guilds`| [Blank] | NOT PUBLIC, for debugging. Display guilds per ID and their NAME | n.guild |
 | `n.help`| [Blank] | Gives you this command list, but in embed format | n.help |
+| `n.invite`| [Blank] | Gets you the invite link for this bot |n.link|
 | `n.lat`| [Blank] | Check Bot's Latency |n.lat|
 | `n.loli`| [Blank] | Tells you not to lewd lolis, for legal reasons(there arent any blacklisted tags, you are responsible for what you use my bot for) | n.loli |
 | `n.mine`| [Blank] | Tells in chat that whatever emote you posted, i just stole it for myself | n.mine |
@@ -58,6 +70,7 @@ Administrator is NOT required, though you wont have any permission problems with
 | `n.purge`| [@User] + [Optional 1-100 messages] | Purges messages based on @user + optional amount. if not set, it will default to 50 messages FETCHED(how far up in chat it goes), NOT deleted. Also accepts All/all as a parameter, then it clears all messages in chat | n.purge @Erwin 100 |
 | `n.quote`| [MessageID or MessageLink] | Quotes the message you wanted to be quoted | n.quote 709892147935182849 |
 | `n.random`| [Blank] | Gives you a random Doujinshi to read | n.random |
+| `n.register`| [Blank] | Sends you info about what you need to do to register on discord minigames |n.register|
 | `n.remove`| [Blank] | Removes the channel from whitelist, making the bot not be able to use NSFW commands there anymore | n.remove |
 | `n.say`| [Anything] | The bot says whatever comes after the message, be it an emote or a message | n.say This is useless |
 | `n.search`| [Search arguments] | Searches for your doujinshi. Check [INFO](https://nhentai.net/info/) for advanced search . Select which doujinshi you want to read by reacting with :book:| n.search blonde -tag:"loli"|
