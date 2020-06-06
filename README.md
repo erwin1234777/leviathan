@@ -43,7 +43,8 @@ Simply click [HERE](https://discordapp.com/oauth2/authorize?client_id=6793431938
 Remove permission Administrator if you wish, or leave it as is.
 Administrator is NOT required, though you wont have any permission problems with the bot
 
-## Twitch commands can be done with 'n. gamble' or 'n;gamble'. Doing 'n.gamble' detects as a link, you can now use spaces!
+## Twitch commands can be done with 'n. gamble'(with space between . and command) or 'n;gamble' to avoid link detection if you have links disallowed!
+
 ## Commands
 | Command | Arguments| Description                    | Example |
 | --------|----------|--------------------------------|---------|
