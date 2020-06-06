@@ -8,7 +8,7 @@ This bot is made using Js, using d.js library.
 
 It is a Multiuse bot with tools that can be fun to use in large servers.
 
-#### For you to use this bot on Twitch aswell, click here for more info [Jump](https://github.com/erwin1234777/leviathan#twitch-information)
+#### For you to use this bot on Twitch aswell, click here for more info [Jump](https://github.com/erwin1234777/leviathan#twitch-information-)
 
 #### Admin tools: 
 - Purge commands for user messages
