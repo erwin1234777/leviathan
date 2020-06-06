@@ -43,7 +43,7 @@ Simply click [HERE](https://discordapp.com/oauth2/authorize?client_id=6793431938
 Remove permission Administrator if you wish, or leave it as is.
 Administrator is NOT required, though you wont have any permission problems with the bot
 
-
+## Twitch commands can be done with 'n. gamble' or 'n;gamble'. Doing 'n.gamble' detects as a link, you can now use spaces!
 ## Commands
 | Command | Arguments| Description                    | Example |
 | --------|----------|--------------------------------|---------|
@@ -88,4 +88,5 @@ This bot is capable of doing cross currency between Discord and Twitch. Meaning 
 - To get started, DM author or ask for it to be added [HERE](https://discord.gg/6QEExsN)
 - After it has been added, type anything in your stream chat to check if the bot replies to it (it will register you on the first message you send), alternatively, try n.boss to see if the bot is properly placed in your chat.
 - That's it, users are now able to do the commands listed in the Minigame section and spend those points across your Discord and your Stream chat! 
+- Remember that 'n.command' may be detected as a link, users are able to use 'n. gamble' , with spaces in between to avoid that if you have links disallowed in your chat! 
 
