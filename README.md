@@ -8,6 +8,8 @@ This bot is made using Js, using d.js library.
 
 It is a Multiuse bot with tools that can be fun to use in large servers.
 
+#### For you to use this bot on Twitch aswell, click here for more info [Jump](https://github.com/erwin1234777/leviathan#twitch-information)
+
 #### Admin tools: 
 - Purge commands for user messages
 - Clear bot messages
@@ -81,5 +83,9 @@ Administrator is NOT required, though you wont have any permission problems with
 | `n.uptime`| [Blank] | Display the bots uptime | n.uptime |
 | `n.user`| [ID or @User] | Display user info even if they are not in the server | n.user 188836645670223872 |
 
-
+#### Twitch Information :
+This bot is capable of doing cross currency between Discord and Twitch. Meaning the points you are awareded from minigames and other rewards are able to be used between both platforms. If you earn 20 coins, you get those 20 coins both on twitch and discord. (shop and others incoming soon enough), as for now you arent able to outright add the bot to twitch, though you are able to fully use it on discord as any other bot with its other functions.
+- To get started, DM author or ask for it to be added [HERE](https://discord.gg/6QEExsN)
+- After it has been added, type anything in your stream chat to check if the bot replies to it (it will register you on the first message you send), alternatively, try n.boss to see if the bot is properly placed in your chat.
+- That's it, users are now able to do the commands listed in the Minigame section and spend those points across your Discord and your Stream chat! 
 
