@@ -8,6 +8,9 @@ This bot is made using Js, using d.js library.
 
 It is a Multiuse bot with tools that can be fun to use in large servers.
 
+# Add this bot to your server! 
+Simply click [HERE](https://discordapp.com/oauth2/authorize?client_id=679343193845661716&scope=bot&permissions=1543892089) to add it.
+
 #### For you to use this bot on Twitch aswell, click here for more info [Jump](https://github.com/erwin1234777/leviathan#twitch-information-)
 
 #### Admin tools: 
@@ -15,6 +18,7 @@ It is a Multiuse bot with tools that can be fun to use in large servers.
 - Clear bot messages
 
 #### Utility: 
+- Twitch/Discord Minigames crossplatform!
 - User info aswell as account creation date for identifying alts
 - Poll commands
 - Quoter
@@ -27,8 +31,8 @@ It is a Multiuse bot with tools that can be fun to use in large servers.
 - Boss Fights
 
 #### Incoming features/Work in Progress:
-- Global Currency that works between Discord Chat and Twitch chat and can be used on both
 - Emotes database so you can use emotes via the bot without nitro
+- Public analytics
                      
 
 ### Need support? 
@@ -37,9 +41,6 @@ Click [HERE](https://discord.gg/6QEExsN)
 - The Channel ID(which is used for whitelist and ONLY added when you do n.add) 
 - Emotes that you post in chat
 - Amount of times you used the commands (analytics) 
-
-# Add this bot to your server! 
-Simply click [HERE](https://discordapp.com/oauth2/authorize?client_id=679343193845661716&scope=bot&permissions=1543892089) to add it.
 
 Remove permission Administrator if you wish, or leave it as is.
 Administrator is NOT required, though you wont have any permission problems with the bot
