@@ -82,8 +82,11 @@ Administrator is NOT required, though you wont have any permission problems with
 | `n.servers`| [Blank] | Display the amount of Servers, Channels, and Users the bot is currently serving (only displays online users) | n.servers |     
 | `n.shouldi`| [Anything] | Like 8ball, it will tell you if you should do something or not. Returns true or false | n.shouldi do my dishes now? |
 | `n.stop`| [Blank] | NOT PUBLIC, kills the bot in an emergency. Alias [n.kill] | n.stop |
-| `n.tag`| [Tag/edit/delete/transfer/check/info] | Quotation marks are only necessary for longer than one word tags! Sub commands => 
-Create = creates a tag, use quotation marks for spaced tags, example [n.tag create "multi word tag" content]. Edit = edits your tag by name, quotation for spaced tags, example [n.tag edit "multi word tag" content]. Transfer = transfer the tag ownership to whomever you want, simply type [n.tag transfer "tag name" @erwin]. Delete = deletes a certain tag, if you are owner. [n.tag detele "this tag"]. Info = displays tag info, [n.tag info "some tag"]| n.tag create "small tag" some description |
+| `n.tag`| [Tag Name] | Displays the content of that tag | n.tag some tag |
+| `n.tag edit`| [Tag Name] [New Content] | Edits your tag by name, use quotation marks for multi worded tags | n.tag edit "my tag" some new content here |
+| `n.tag info`| [Tag Name] | Displays the info about that tag | n.tag info leviathan |
+| `n.tag transfer`| [Tag Name][@User] | Transfers the tag ownership to the person you are @'ing, use quotation marks for multi worded tags | n.tag transfer "leviathan bot" @Erwin|
+| `n.tag delete`| [Tag Name] | Deletes the tag, if you are the owner of it | n.tag delete "some tag" |
 | `n.uptime`| [Blank] | Display the bots uptime | n.uptime |
 | `n.user`| [ID or @User] | Display user info even if they are not in the server | n.user 188836645670223872 |
 
