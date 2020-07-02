@@ -41,6 +41,7 @@ Click [HERE](https://discord.gg/6QEExsN)
 - The Channel ID(which is used for whitelist and ONLY added when you do n.add) 
 - Emotes that you post in chat
 - Amount of times you used the commands (analytics) 
+- The guild ID for moderation log purposes to prevent api abuse(constantly kicking/adding bot)
 
 Remove permission Administrator if you wish, or leave it as is.
 Administrator is NOT required, though you wont have any permission problems with the bot
