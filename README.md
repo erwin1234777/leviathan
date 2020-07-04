@@ -33,6 +33,7 @@ Simply click [HERE](https://discordapp.com/oauth2/authorize?client_id=6793431938
 #### Incoming features/Work in Progress:
 - Emotes database so you can use emotes via the bot without nitro
 - Public analytics
+- Redeeming points (configurable per server) with perks and packages! (examples: join sub servers, do a flip, try a new cookie!)
                      
 
 ### Need support? 
