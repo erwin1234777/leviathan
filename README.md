@@ -67,6 +67,7 @@ Administrator is NOT required, though you wont have any permission problems with
 | `n.gamble`| [Amuont] | Gambles the amount of points specified |n.gamble 50|
 | `n.guilds`| [Blank] | NOT PUBLIC, for debugging. Display guilds per ID and their NAME | n.guild |
 | `n.help`| [Blank] | Gives you this command list, but in embed format | n.help |
+| `n.info`| [Blank] | Displays all the info about the bot | n.info |
 | `n.invite`| [Blank] | Gets you the invite link for this bot |n.link|
 | `n.lat`| [Blank] | Check Bot's Latency |n.lat|
 | `n.loli`| [Blank] | Tells you not to lewd lolis, for legal reasons(there arent any blacklisted tags, you are responsible for what you use my bot for) | n.loli |
@@ -76,6 +77,7 @@ Administrator is NOT required, though you wont have any permission problems with
 | `n.poll` | [Amount],[Description], [content1]... | make sure the 1-10 match the amount of things you want in the poll. If you do n.poll 4, its expecting a description + 4 elements | n.poll 3, This is the description/title, this is element 1, element 2, element 3 |
 | `n.purge`| [@User] + [Optional 1-100 messages] | Purges messages based on @user + optional amount. if not set, it will default to 50 messages FETCHED(how far up in chat it goes), NOT deleted. Also accepts All/all as a parameter, then it clears all messages in chat | n.purge @Erwin 100 |
 | `n.quote`| [MessageID or MessageLink] | Quotes the message you wanted to be quoted | n.quote 709892147935182849 |
+| `n.reload`| [Blank] | NOT PUBLIC, used to reload the bot commands cache |n.reload|
 | `n.register`| [Blank] | Sends you info about what you need to do to register on discord minigames |n.register|
 | `n.remove`| [Blank] | Removes the channel from whitelist, making the bot not be able to use NSFW commands there anymore | n.remove |
 | `n.say`| [Anything] | The bot says whatever comes after the message, be it an emote or a message | n.say This is useless |
