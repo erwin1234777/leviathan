@@ -76,12 +76,10 @@ Administrator is NOT required, though you wont have any permission problems with
 | `n.poll` | [Amount],[Description], [content1]... | make sure the 1-10 match the amount of things you want in the poll. If you do n.poll 4, its expecting a description + 4 elements | n.poll 3, This is the description/title, this is element 1, element 2, element 3 |
 | `n.purge`| [@User] + [Optional 1-100 messages] | Purges messages based on @user + optional amount. if not set, it will default to 50 messages FETCHED(how far up in chat it goes), NOT deleted. Also accepts All/all as a parameter, then it clears all messages in chat | n.purge @Erwin 100 |
 | `n.quote`| [MessageID or MessageLink] | Quotes the message you wanted to be quoted | n.quote 709892147935182849 |
-| `n.random`| [Blank] | Gives you a random Doujinshi to read | n.random |
 | `n.register`| [Blank] | Sends you info about what you need to do to register on discord minigames |n.register|
 | `n.remove`| [Blank] | Removes the channel from whitelist, making the bot not be able to use NSFW commands there anymore | n.remove |
 | `n.say`| [Anything] | The bot says whatever comes after the message, be it an emote or a message | n.say This is useless |
 | `n.search`| [Search arguments] | Searches for your doujinshi. Check [INFO](https://nhentai.net/info/) for advanced search . Select which doujinshi you want to read by reacting with :book:| n.search blonde -tag:"loli"|
-| `n.searchid`| [Doujinshi ID] | Fetches the nhentai doujinshi based on ID |n.searchid 312913|
 | `n.servers`| [Blank] | Display the amount of Servers, Channels, and Users the bot is currently serving (only displays online users) | n.servers |     
 | `n.shouldi`| [Anything] | Like 8ball, it will tell you if you should do something or not. Returns true or false | n.shouldi do my dishes now? |
 | `n.stop`| [Blank] | NOT PUBLIC, kills the bot in an emergency. Alias [n.kill] | n.stop |
