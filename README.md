@@ -24,6 +24,7 @@ Simply click [HERE](https://discordapp.com/oauth2/authorize?client_id=6793431938
 - Quoter
 - 8Ball/Should i?
 - Tags
+- Reminder
 
 #### Currency/Minigames:
 - Balance
