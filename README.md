@@ -50,7 +50,7 @@ Administrator is NOT required, though you wont have any permission problems with
 
 ## Twitch commands can be done with 'n. gamble'(with space between . and command) or 'n;gamble' to avoid link detection if you have links disallowed!
 
-## Commands
+## Discord Commands
 | Command | Arguments| Description                    | Example |
 | --------|----------|--------------------------------|---------|
 | `:eyes:`| [Blank] | Sends another :eyes: emote in chat |:eyes:|
@@ -101,4 +101,15 @@ This bot is capable of doing cross currency between Discord and Twitch. Meaning 
 - After it has been added, type anything in your stream chat to check if the bot replies to it (it will register you on the first message you send), alternatively, try n.boss to see if the bot is properly placed in your chat.
 - That's it, users are now able to do the commands listed in the Minigame section and spend those points across your Discord and your Stream chat! 
 - Remember that 'n.command' may be detected as a link, users are able to use 'n. gamble' , with spaces in between to avoid that if you have links disallowed in your chat! 
+
+## Twitch Commands
+| Command | Arguments| Description                    | Example |
+| --------|----------|--------------------------------|---------|
+| `n.balance`| [Blank] | Checks your current balance |n.balance|
+| `n.boss`| [Blank] | Does a boss. If you lose more money than you have, it tells you're bankrupt! |n.boss|
+| `n.gamble`| [Amount] | Gambles the current amount |n.gamble 20|
+| `n.link`| [Blank] | MAKE SURE DM IS OPEN, will send you a dm of the link to post in discord so you can link your account! |n.link|
+| `n.prefix`| [Prefix] | Changes the bot prefix, MAXIMUM 3 CHARS |n.prefix !|
+| `n.reload`| [Blank] | NOT PUBLIC, reloads the commands of the bot |n.reload|
+| `n.test`| [Blank] | Use this command to test if the bot is operational in your stream |n.test|
 
