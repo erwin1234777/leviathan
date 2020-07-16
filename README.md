@@ -49,7 +49,7 @@ Remove permission Administrator if you wish, or leave it as is.
 Administrator is NOT required, though you wont have any permission problems with the bot
 
 ## Twitch commands can be done with 'n. gamble'(with space between . and command) or 'n;gamble' to avoid link detection if you have links disallowed!
-## For tutorial, click here [JUMP]()
+## For Visual Tutorial, click here [JUMP](https://github.com/erwin1234777/leviathan#visual-tutorial)
 
 ## Discord Commands
 | Command | Arguments| Description                    | Example |
@@ -156,7 +156,7 @@ Some extra things you might wanna keep in mind. Try ``n.test`` on your stream to
 
 You can then change the ``PREFIX`` from ``n.`` to ``!`` or whatever else you want, remember that it can ``ONLY be MAX 3 Characters long``. @Command, #Command, !Command, are all avaliable!
 
-<img src="https://https://i.imgur.com/ZG3yjRv.png" width="600">
+<img src="https://i.imgur.com/ZG3yjRv.png" width="300">
 
 Thats it, you are done! Check the [TWITCH COMMANDS](https://github.com/erwin1234777/leviathan#twitch-commands), and try them on your stream.
 No setup, no downloads, just a couple messages away from using this Free Bot! Hope you enjoy!
