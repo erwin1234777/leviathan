@@ -49,6 +49,7 @@ Remove permission Administrator if you wish, or leave it as is.
 Administrator is NOT required, though you wont have any permission problems with the bot
 
 ## Twitch commands can be done with 'n. gamble'(with space between . and command) or 'n;gamble' to avoid link detection if you have links disallowed!
+## For tutorial, click here [JUMP]()
 
 ## Discord Commands
 | Command | Arguments| Description                    | Example |
@@ -115,3 +116,47 @@ This bot is capable of doing cross currency between Discord and Twitch. Meaning 
 | `n.test`| [Blank] | Use this command to test if the bot is operational in your stream |n.test|
 | `n.unsubscribe`| [Blank] | Unsubscribes from the bot. ONLY the Streamer can use this command |n.unsubscribe|
 
+## Visual Tutorial 
+
+- First, to start things off, you must be in a server with the bot in it. You can add it via invite [HERE](https://github.com/erwin1234777/leviathan#add-this-bot-to-your-server) or if you already have in your Discord server, ignore this step.
+- Second, you must go to Twitch, either if your Streamer has the bot on their chat, or use the [Official Bot Page](https://www.twitch.tv/leviathanapp) to get started.
+Thats it, those are the requirements, now follow along!
+
+You can start by typing ``n.register`` in your Discord chat.  
+ 
+<img src="https://i.imgur.com/0g7OQKw.png" width="320">
+
+Second step, is going on the bot's chat or your streamers chat.
+Then you'll type ``n.link``, which then the bot will DM you.
+### MAKE SURE YOU HAVE DM's OPEN
+Copy the whole link, ``n.link`` plus the big ID it will give you.
+
+
+<img src="https://i.imgur.com/5grF3lT.png" width="680">
+
+Once thats done, now its time to head over to Discord and paste that big link the bot DM'd you.
+
+<img src="https://i.imgur.com/9CIY1ws.png" width="300">
+
+### Thats it!
+Remember that those steps are only for Streamers that dont have the bot on their chat. You wont be needing to come to my stream to link your account, all this can be done on the streamer's chat once the bot is setup on their end!
+Well, for Users thats it. If you want the bot on YOUR stream aswell, keep following these steps!
+
+### Add me to your stream!
+Let get started. Head over to [Official Bot Page](https://www.twitch.tv/leviathanapp/chat).
+Then type ``n.subscribe``. Make sure you are the Streamer, it'll subscribe to the user who types the command, you cannot subscribe on someones behalf
+
+<img src="https://i.imgur.com/Nqqjbny.png" width="300">
+
+That's it, the bot should be on your stream now.
+
+Some extra things you might wanna keep in mind. Try ``n.test`` on your stream to check the bot.
+
+<img src="https://i.imgur.com/NXZLprI.png" width="300">
+
+You can then change the ``PREFIX`` from ``n.`` to ``!`` or whatever else you want, remember that it can ``ONLY be MAX 3 Characters long``. @Command, #Command, !Command, are all avaliable!
+
+<img src="https://https://i.imgur.com/ZG3yjRv.png" width="600">
+
+Thats it, you are done! Check the [TWITCH COMMANDS](https://github.com/erwin1234777/leviathan#twitch-commands), and try them on your stream.
+No setup, no downloads, just a couple messages away from using this Free Bot! Hope you enjoy!
