@@ -96,9 +96,9 @@ Administrator is NOT required, though you wont have any permission problems with
 | `n.user`| [ID or @User] | Display user info even if they are not in the server | n.user 188836645670223872 |
 
 #### Twitch Information :
-This bot is capable of doing cross currency between Discord and Twitch. Meaning the points you are awareded from minigames and other rewards are able to be used between both platforms. If you earn 20 coins, you get those 20 coins both on twitch and discord. (shop and others incoming soon enough), as for now you arent able to outright add the bot to twitch, though you are able to fully use it on discord as any other bot with its other functions.
-- To get started, DM author or ask for it to be added [HERE](https://discord.gg/6QEExsN)
-- After it has been added, type anything in your stream chat to check if the bot replies to it (it will register you on the first message you send), alternatively, try n.boss to see if the bot is properly placed in your chat.
+This bot is capable of doing cross currency between Discord and Twitch. Meaning the points you are awareded from minigames and other rewards are able to be used between both platforms. If you earn 20 coins, you get those 20 coins both on twitch and discord. (shop and others incoming soon enough).
+- To get started, head over to the [TWITCH](https://www.twitch.tv/erwinmarcos), then go in CHAT(even if offline), and type n.susbcribe
+- After it has been added, type anything in your stream chat to check if the bot replies to it (it will register you on the first message you send), alternatively, try n.test to see if the bot is properly placed in your chat.
 - That's it, users are now able to do the commands listed in the Minigame section and spend those points across your Discord and your Stream chat! 
 - Remember that 'n.command' may be detected as a link, users are able to use 'n. gamble' , with spaces in between to avoid that if you have links disallowed in your chat! 
 
@@ -111,5 +111,7 @@ This bot is capable of doing cross currency between Discord and Twitch. Meaning 
 | `n.link`| [Blank] | MAKE SURE DM IS OPEN, will send you a dm of the link to post in discord so you can link your account! |n.link|
 | `n.prefix`| [Prefix] | Changes the bot prefix, MAXIMUM 3 CHARS |n.prefix !|
 | `n.reload`| [Blank] | NOT PUBLIC, reloads the commands of the bot |n.reload|
+| `n.subscribe`| [Blank] | Use this to subscribe to your channel. You cannot subscribe on someones behalf |n.subscribe|
 | `n.test`| [Blank] | Use this command to test if the bot is operational in your stream |n.test|
+| `n.unsubscribe`| [Blank] | Unsubscribes from the bot. ONLY the Streamer can use this command |n.unsubscribe|
 
