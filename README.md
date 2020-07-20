@@ -84,7 +84,7 @@ Administrator is NOT required, though you wont have any permission problems with
 | `n.remove`| [Blank] | Removes the channel from whitelist, making the bot not be able to use NSFW commands there anymore | n.remove |
 | `n.reminder`| [Time] [Reminder] | uses s(secs),m(mins),h(hours),d(days),w,(weeks),m(months) as timers.  | n.reminder 2h 52m 2s Remind me to do this! |
 | `n.say`| [Anything] | The bot says whatever comes after the message, be it an emote or a message | n.say This is useless |
-| `n.search`| [Search arguments] | Searches for your doujinshi. Check [INFO](https://nhentai.net/info/) for advanced search . Select which doujinshi you want to read by reacting with :book:| n.search blonde -tag:"loli"|
+| `n.search`| [Search arguments] | Searches for your doujinshi. Check [INFO](https://nhentai.net/info/) for advanced search . Select which doujinshi you want to read by reacting with :book: . Blacklist tags with -| n.search blonde -loli|
 | `n.servers`| [Blank] | Display the amount of Servers, Channels, and Users the bot is currently serving (only displays online users) | n.servers |     
 | `n.shouldi`| [Anything] | Like 8ball, it will tell you if you should do something or not. Returns true or false | n.shouldi do my dishes now? |
 | `n.stop`| [Blank] | NOT PUBLIC, kills the bot in an emergency. Alias [n.kill] | n.stop |
