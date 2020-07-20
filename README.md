@@ -106,6 +106,7 @@ This bot is capable of doing cross currency between Discord and Twitch. Meaning 
 ## Twitch Commands
 | Command | Arguments| Description                    | Example |
 | --------|----------|--------------------------------|---------|
+| `@leviathanapp`| [Blank] | Will tell you the prefix currently in place on your stream |@leviathanapp|
 | `n.balance`| [Blank] | Checks your current balance |n.balance|
 | `n.boss`| [Blank] | Does a boss. If you lose more money than you have, it tells you're bankrupt! |n.boss|
 | `n.gamble`| [Amount] | Gambles the current amount |n.gamble 20|
