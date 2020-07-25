@@ -29,7 +29,7 @@ Simply click [HERE](https://discordapp.com/oauth2/authorize?client_id=6793431938
 #### Currency/Minigames:
 - Balance
 - Gamble
-- Boss Fights
+- Boss Fights 
 
 #### Incoming features/Work in Progress:
 - Emotes database so you can use emotes via the bot without nitro
