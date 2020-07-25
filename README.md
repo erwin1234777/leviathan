@@ -1,4 +1,4 @@
-# <img src="https://i.imgur.com/X6J4pvk.png" width="180">
+# <img src="https://i.imgur.com/X6J4pvk.png" width="180"> 
 # Leviathan Bot 
 
 
@@ -57,6 +57,7 @@ Administrator is NOT required, though you wont have any permission problems with
 | `n.add`| [Blank] | This add a NON NSFW channel into whitelist. For whatever reason, if you want NSFW in a channel not set NSFW, you can use this to allow bot  | n.add |
 | `n.acheck`| [UserID] | NOT PUBLIC, used for checking if player is already registered |n.acheck 188836645670223872|
  `n.acurrency`| [set/get/add/remove/reset] | NOT PUBLIC, used for setting amount, getting balance, removing currency, adding currency or reseting accounts to 0 |n.acurrency set 188836645670223872 300|
+| `n.announcement`| [toggle/message] | NOT PUBLIC, toggles announcement mode on/off on status. |n.announcement Ported to Typescript!|
 | `n.astatus`| [setstatus/setstream] | NOT PUBLIC, selects one of my status to be shown or stream for link to minigames |n.astatus setstream|
 | `n.balance`| [Optional userid] | checks your current amount of points |n.balance|
 | `n.boss`| [Blank] | Does a boss fight, and earns or loses coins based on it |n.boss|
