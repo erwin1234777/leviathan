@@ -54,7 +54,6 @@ Administrator is NOT required, though you wont have any permission problems with
 ## Discord Commands
 | Command | Arguments| Description                    | Example |
 | --------|----------|--------------------------------|---------|
-| `:eyes:`| [Blank] | Sends another :eyes: emote in chat |:eyes:|
 | `n.add`| [Blank] | This add a NON NSFW channel into whitelist. For whatever reason, if you want NSFW in a channel not set NSFW, you can use this to allow bot  | n.add |
 | `n.acheck`| [UserID] | NOT PUBLIC, used for checking if player is already registered |n.acheck 188836645670223872|
  `n.acurrency`| [set/get/add/remove/reset] | NOT PUBLIC, used for setting amount, getting balance, removing currency, adding currency or reseting accounts to 0 |n.acurrency set 188836645670223872 300|
@@ -68,7 +67,7 @@ Administrator is NOT required, though you wont have any permission problems with
 | `n.enc`| [Anything] | Encodes whatever you typed into Base64 | n.enc This is SUPER fun |
 | `n.gamble`| [Amuont] | Gambles the amount of points specified |n.gamble 50|
 | `n.guilds`| [Blank] | NOT PUBLIC, for debugging. Display guilds per ID and their NAME | n.guild |
-| `n.help`| [Blank] | Gives you this command list, but in embed format | n.help |
+| `n.help`| [Blank] | Gives you the link to this doc, in embed format | n.help |
 | `n.info`| [Blank] | Displays all the info about the bot | n.info |
 | `n.invite`| [Blank] | Gets you the invite link for this bot |n.link|
 | `n.lat`| [Blank] | Check Bot's Latency |n.lat|
