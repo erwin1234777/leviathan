@@ -1,4 +1,4 @@
-# <img src="https://i.imgur.com/X6J4pvk.png" width="180"> 
+# <img src="https://i.imgur.com/X6J4pvk.png" width="180">
 # Leviathan Bot 
 
 
