@@ -25,6 +25,7 @@ Simply click [HERE](https://discordapp.com/oauth2/authorize?client_id=6793431938
 - 8Ball/Should i?
 - Tags
 - Reminder
+- Meme
 
 #### Currency/Minigames:
 - Balance
@@ -35,6 +36,8 @@ Simply click [HERE](https://discordapp.com/oauth2/authorize?client_id=6793431938
 - Emotes database so you can use emotes via the bot without nitro
 - Public analytics
 - Redeeming points (configurable per server) with perks and packages! (examples: join sub servers, do a flip, try a new cookie!)
+- Crosschat, so you can talk to your Discord Chat while streaming on twitch, and vice versa!
+- RP commands
                      
 
 ### Need support? 
@@ -73,6 +76,7 @@ Administrator is NOT required, though you wont have any permission problems with
 | `n.invite`| [Blank] | Gets you the invite link for this bot |n.link|
 | `n.lat`| [Blank] | Check Bot's Latency |n.lat|
 | `n.loli`| [Blank] | Tells you not to lewd lolis, for legal reasons(there arent any blacklisted tags, you are responsible for what you use my bot for) | n.loli |
+| `n.meme`| [Blank] | Sends a meme in chat | n.meme |
 | `n.mine`| [Blank] | Tells in chat that whatever emote you posted, i just stole it for myself | n.mine |
 | `n.nick`| [Anything] | Changes the bot nickname to whatever you want. Respects discord limits, {2-32} long nick | n.nick Safe For Work Bot |
 | `n.nwaifu`| [Blank] | This is a big command used for building the JSON required to add a new waifu to [Is-Your-Waifu-Legal](https://github.com/yourWaifu/is-your-waifu-legal), it uses [NaN] as a skippeable argument and [,] as a separator | n.nwaifu |
