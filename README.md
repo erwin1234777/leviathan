@@ -119,6 +119,7 @@ This bot is capable of doing cross currency between Discord and Twitch. Meaning 
 | `n.discord`| [set] | Sets the discord command message |n.discord set https://discord.gg/6QEExsN|
 | `n.followage`| [Blank] | Follow info about the user who uses command towards the streamer |n.followage|
 | `n.gamble`| [Amount] | Gambles the current amount |n.gamble 20|
+| `n.help`| [Blank] | Help info |n.help|
 | `n.link`| [Blank] | MAKE SURE DM IS OPEN, will send you a dm of the link to post in discord so you can link your account! |n.link|
 | `n.prefix`| [Prefix] | Changes the bot prefix, MAXIMUM 3 CHARS |n.prefix !|
 | `n.reload`| [Blank] | NOT PUBLIC, reloads the commands of the bot |n.reload|
