@@ -25,7 +25,8 @@ Simply click [HERE](https://discordapp.com/oauth2/authorize?client_id=6793431938
 - 8Ball/Should i?
 - Tags
 - Reminder
-- Meme
+- Memes
+- Rp Commands
 
 #### Currency/Minigames:
 - Balance
@@ -37,7 +38,6 @@ Simply click [HERE](https://discordapp.com/oauth2/authorize?client_id=6793431938
 - Public analytics
 - Redeeming points (configurable per server) with perks and packages! (examples: join sub servers, do a flip, try a new cookie!)
 - Crosschat, so you can talk to your Discord Chat while streaming on twitch, and vice versa!
-- RP commands
                      
 
 ### Need support? 
@@ -60,12 +60,14 @@ Administrator is NOT required, though you wont have any permission problems with
 | `n.add`| [Blank] | This add a NON NSFW channel into whitelist. For whatever reason, if you want NSFW in a channel not set NSFW, you can use this to allow bot  | n.add |
 | `n.acheck`| [UserID] | NOT PUBLIC, used for checking if player is already registered |n.acheck 188836645670223872|
  `n.acurrency`| [set/get/add/remove/reset] | NOT PUBLIC, used for setting amount, getting balance, removing currency, adding currency or reseting accounts to 0 |n.acurrency set 188836645670223872 300|
+  `n.nick`| [guildid/nickname] | NOT PUBLIC, used for removing pejorative nicknames in specific guilds|n.anick 628731905423966219 Leviathan|
 | `n.announcement`| [toggle/message] | NOT PUBLIC, toggles announcement mode on/off on status. |n.announcement Ported to Typescript!|
 | `n.astatus`| [setstatus/setstream] | NOT PUBLIC, selects one of my status to be shown or stream for link to minigames |n.astatus setstream|
 | `n.balance`| [Optional userid] | checks your current amount of points |n.balance|
 | `n.boss`| [Blank] | Does a boss fight, and earns or loses coins based on it |n.boss|
 | `n.check`| [Blank] | Checks for the bot's permissions and displays it for you |n.check|
 | `n.clear`| [Optional 1-100 messages] | Deletes THIS BOT ONLY messages, also the optional messages is messages FECTHED, not messages DELETED | n.clear 63 |
+| `n.crosschat`| [default/enable/allowed] | NOT FULLY IMPLEMENTED, wait until release! | n.crosschat enable |
 | `n.dec`| [Base64 String] | Decodes whatever you typed from Base64 | n.dec VGhpcyBpcyBTVVBFUiBmdW4= |
 | `n.embed`| [Anything] | Sends an embed containing your arguments | n.embed Embeds are cool |
 | `n.enc`| [Anything] | Encodes whatever you typed into Base64 | n.enc This is SUPER fun |
