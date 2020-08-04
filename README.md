@@ -117,10 +117,18 @@ This bot is capable of doing cross currency between Discord and Twitch. Meaning 
 | `n.dice`| [Blank] | Rolls a dice, 1-6 |n.dice|
 | `n.discord`| [Blank] | Displays the Streamer discord link/message |n.discord|
 | `n.discord`| [set] | Sets the discord command message |n.discord set https://discord.gg/6QEExsN|
+| `n.facebook`| [Blank] | Displays the Streamer facebook link/message |n.facebook|
+| `n.facebook`| [set] | Sets the facebook command message |n.facebook set [Link]|
 | `n.followage`| [Blank] | Follow info about the user who uses command towards the streamer |n.followage|
 | `n.gamble`| [Amount] | Gambles the current amount |n.gamble 20|
 | `n.help`| [Blank] | Help info |n.help|
+| `n.instagram`| [Blank] | Displays the Streamer instagram link/message |n.instagram|
+| `n.instagram`| [set] | Sets the instagram command message |n.instagram set [Link]|
 | `n.link`| [Blank] | MAKE SURE DM IS OPEN, will send you a dm of the link to post in discord so you can link your account! |n.link|
+| `n.lurk`| [Blank] | Displays the Lurk message |n.lurk|
+| `n.lurk`| [set] | Sets the lurk command message to display |n.lurk set [Message]|
+| `n.mixer`| [Blank] | Displays the Streamer mixer link/message |n.mixer|
+| `n.mixer`| [set] | Sets the mixer command message |n.mixer set [Link]|
 | `n.prefix`| [Prefix] | Changes the bot prefix, MAXIMUM 3 CHARS |n.prefix !|
 | `n.reload`| [Blank] | NOT PUBLIC, reloads the commands of the bot |n.reload|
 | `n.reminder`| [s/m/h/d] + [reminder] | Reminder command. use s(second)m(minutes)h(hours)d(days) to specify time |n.reminder 10m Remind me!|
@@ -131,7 +139,11 @@ This bot is capable of doing cross currency between Discord and Twitch. Meaning 
 | `n.stats`| [Blank] | Display the bots current stats |n.stats|
 | `n.subscribe`| [Blank] | Use this to subscribe to your channel. You cannot subscribe on someones behalf |n.subscribe|
 | `n.test`| [Blank] | Use this command to test if the bot is operational in your stream |n.test|
+| `n.twitter`| [Blank] | Displays the Streamer twitter link/message |n.twitter|
+| `n.twitter`| [set] | Sets the twitter command message |n.twitter set [Link]|
 | `n.unsubscribe`| [Blank] | Unsubscribes from the bot. ONLY the Streamer can use this command |n.unsubscribe|
+| `n.youtube`| [Blank] | Displays the Streamer youtube link/message |n.youtube|
+| `n.youtube`| [set] | Sets the youtube command message |n.youtube set [Link]|
 
 ## Visual Tutorial 
 
