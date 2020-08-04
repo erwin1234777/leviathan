@@ -97,6 +97,7 @@ Administrator is NOT required, though you wont have any permission problems with
 | `n.search`| [Search arguments] | Searches for your doujinshi. Check [INFO](https://nhentai.net/info/) for advanced search . Select which doujinshi you want to read by reacting with :book: . Blacklist tags with -| n.search blonde -loli|
 | `n.servers`| [Blank] | Display the amount of Servers, Channels, and Users the bot is currently serving (only displays online users) | n.servers |     
 | `n.shouldi`| [Anything] | Like 8ball, it will tell you if you should do something or not. Returns true or false | n.shouldi do my dishes now? |
+| `n.slap`| [@user] | Roleplay command | n.slap @Leviathan |
 | `n.stop`| [Blank] | NOT PUBLIC, kills the bot in an emergency. Alias [n.kill] | n.stop |
 | `n.tag`| [Tag Name] | Displays the content of that tag | n.tag some tag |
 | `n.tag edit`| [Tag Name] [New Content] | Edits your tag by name, use quotation marks for multi worded tags | n.tag edit "my tag" some new content here |
