@@ -114,6 +114,7 @@ This bot is capable of doing cross currency between Discord and Twitch. Meaning 
 | `n.balance`| [Blank] | Checks your current balance |n.balance|
 | `n.boss`| [Blank] | Does a boss. If you lose more money than you have, it tells you're bankrupt! |n.boss|
 | `n.coinflip`| [Blank] | Tosses a coin, Head or Tails |n.coinflip|
+| `n.dice`| [Blank] | Rolls a dice, 1-6 |n.dice|
 | `n.gamble`| [Amount] | Gambles the current amount |n.gamble 20|
 | `n.link`| [Blank] | MAKE SURE DM IS OPEN, will send you a dm of the link to post in discord so you can link your account! |n.link|
 | `n.prefix`| [Prefix] | Changes the bot prefix, MAXIMUM 3 CHARS |n.prefix !|
