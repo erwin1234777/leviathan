@@ -80,10 +80,11 @@ Administrator is NOT required, though you wont have any permission problems with
 | `n.lat`| [Blank] | Check Bot's Latency |n.lat|
 | `n.link`| [token] | Used for linking account with twitch. Grab token from Twitch Chat |n.token [Token]|
 | `n.loli`| [Blank] | Tells you not to lewd lolis, for legal reasons(there arent any blacklisted tags, you are responsible for what you use my bot for) | n.loli |
-| `n.meme`| [Blank] | Sends a meme in chat | n.meme |
+| `n.meme`| [Blank] | Sends a meme/post in chat | n.meme |
 | `n.mine`| [Blank] | Tells in chat that whatever emote you posted, i just stole it for myself | n.mine |
 | `n.nick`| [Anything] | Changes the bot nickname to whatever you want. Respects discord limits, {2-32} long nick | n.nick Safe For Work Bot |
 | `n.nwaifu`| [Blank] | This is a big command used for building the JSON required to add a new waifu to [Is-Your-Waifu-Legal](https://github.com/yourWaifu/is-your-waifu-legal), it uses [NaN] as a skippeable argument and [,] as a separator | n.nwaifu |
+| `n.permbit`| [Perm Bit Field] | Resolves a Permission Bit field from discord | n.permbit 2146958839 |
 | `n.poll` | [Amount],[Description], [content1]... | make sure the 1-10 match the amount of things you want in the poll. If you do n.poll 4, its expecting a description + 4 elements | n.poll 3, This is the description/title, this is element 1, element 2, element 3 |
 | `n.purge`| [@User] + [Optional 1-100 messages] | Purges messages based on @user + optional amount. if not set, it will default to 50 messages FETCHED(how far up in chat it goes), NOT deleted. Also accepts All/all as a parameter, then it clears all messages in chat | n.purge @Erwin 100 |
 | `n.quote`| [MessageID or MessageLink] | Quotes the message you wanted to be quoted | n.quote 709892147935182849 |
