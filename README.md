@@ -78,6 +78,7 @@ Administrator is NOT required, though you wont have any permission problems with
 | `n.invite`| [Blank] | Gets you the invite link for this bot |n.link|
 | `n.kiss`| [@user] | Roleplay command |n.kiss @Leviathan|
 | `n.lat`| [Blank] | Check Bot's Latency |n.lat|
+| `n.link`| [token] | Used for linking account with twitch. Grab token from Twitch Chat |n.token [Token]|
 | `n.loli`| [Blank] | Tells you not to lewd lolis, for legal reasons(there arent any blacklisted tags, you are responsible for what you use my bot for) | n.loli |
 | `n.meme`| [Blank] | Sends a meme in chat | n.meme |
 | `n.mine`| [Blank] | Tells in chat that whatever emote you posted, i just stole it for myself | n.mine |
