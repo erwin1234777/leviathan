@@ -76,7 +76,7 @@ Administrator is NOT required, though you wont have any permission problems with
 | `n.help`| [Blank] | Gives you the link to this doc, in embed format | n.help |
 | `n.info`| [Blank] | Displays all the info about the bot | n.info |
 | `n.invite`| [Blank] | Gets you the invite link for this bot |n.link|
-| `n.kiss`| [@user] | Roleplay command |n.kiss @Leviathan|
+| `n.kiss`| [@User] | Roleplay command |n.kiss @Leviathan|
 | `n.lat`| [Blank] | Check Bot's Latency |n.lat|
 | `n.link`| [token] | Used for linking account with twitch. Grab token from Twitch Chat |n.token [Token]|
 | `n.loli`| [Blank] | Tells you not to lewd lolis, for legal reasons(there arent any blacklisted tags, you are responsible for what you use my bot for) | n.loli |
@@ -86,6 +86,7 @@ Administrator is NOT required, though you wont have any permission problems with
 | `n.nwaifu`| [Blank] | This is a big command used for building the JSON required to add a new waifu to [Is-Your-Waifu-Legal](https://github.com/yourWaifu/is-your-waifu-legal), it uses [NaN] as a skippeable argument and [,] as a separator | n.nwaifu |
 | `n.permbit`| [Perm Bit Field] | Resolves a Permission Bit field from discord | n.permbit 2146958839 |
 | `n.poll` | [Amount],[Description], [content1]... | make sure the 1-10 match the amount of things you want in the poll. If you do n.poll 4, its expecting a description + 4 elements | n.poll 3, This is the description/title, this is element 1, element 2, element 3 |
+| `n.punch`| [@User] | Roleplay command | n.punch @Leviathan |
 | `n.purge`| [@User] + [Optional 1-100 messages] | Purges messages based on @user + optional amount. if not set, it will default to 50 messages FETCHED(how far up in chat it goes), NOT deleted. Also accepts All/all as a parameter, then it clears all messages in chat | n.purge @Erwin 100 |
 | `n.quote`| [MessageID or MessageLink] | Quotes the message you wanted to be quoted | n.quote 709892147935182849 |
 | `n.reload`| [Blank] | NOT PUBLIC, used to reload the bot commands cache |n.reload|
