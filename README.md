@@ -123,6 +123,12 @@ This bot is capable of doing cross currency between Discord and Twitch. Meaning 
 | `n.link`| [Blank] | MAKE SURE DM IS OPEN, will send you a dm of the link to post in discord so you can link your account! |n.link|
 | `n.prefix`| [Prefix] | Changes the bot prefix, MAXIMUM 3 CHARS |n.prefix !|
 | `n.reload`| [Blank] | NOT PUBLIC, reloads the commands of the bot |n.reload|
+| `n.reminder`| [s/m/h/d] + [reminder] | Reminder command. use s(second)m(minutes)h(hours)d(days) to specify time |n.reminder 10m Remind me!|
+| `n.rip`| [Blank] | Adds +1 to your rip count |n.rip|
+| `n.rip`| [reset] | Resets rip count to 0 |n.rip reset|
+| `n.rip`| [add] | Adds X number to your rip count |n.rip add 20|
+| `n.speak`| [Blank] | UNUSED, ignore |n.speak|
+| `n.stats`| [Blank] | Display the bots current stats |n.stats|
 | `n.subscribe`| [Blank] | Use this to subscribe to your channel. You cannot subscribe on someones behalf |n.subscribe|
 | `n.test`| [Blank] | Use this command to test if the bot is operational in your stream |n.test|
 | `n.unsubscribe`| [Blank] | Unsubscribes from the bot. ONLY the Streamer can use this command |n.unsubscribe|
