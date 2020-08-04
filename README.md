@@ -76,6 +76,7 @@ Administrator is NOT required, though you wont have any permission problems with
 | `n.help`| [Blank] | Gives you the link to this doc, in embed format | n.help |
 | `n.info`| [Blank] | Displays all the info about the bot | n.info |
 | `n.invite`| [Blank] | Gets you the invite link for this bot |n.link|
+| `n.kiss`| [@user] | Roleplay command |n.kiss @Leviathan|
 | `n.lat`| [Blank] | Check Bot's Latency |n.lat|
 | `n.loli`| [Blank] | Tells you not to lewd lolis, for legal reasons(there arent any blacklisted tags, you are responsible for what you use my bot for) | n.loli |
 | `n.meme`| [Blank] | Sends a meme in chat | n.meme |
