@@ -27,6 +27,7 @@ Simply click [HERE](https://discordapp.com/oauth2/authorize?client_id=6793431938
 - Reminder
 - Memes
 - Rp Commands
+- Welcomer
 
 #### Currency/Minigames:
 - Balance
@@ -107,7 +108,9 @@ Administrator is NOT required, though you wont have any permission problems with
 | `n.tag delete`| [Tag Name] | Deletes the tag, if you are the owner of it | n.tag delete "some tag" |
 | `n.uptime`| [Blank] | Display the bots uptime | n.uptime |
 | `n.user`| [ID or @User] | Display user info even if they are not in the server | n.user 188836645670223872 |
-
+| `n.welcomer`| [enable/disable] | Enable/Disable will turn on/off the feature(off by default). | n.welcomer enable |
+| `n.welcomer`| [message] | Sets the welcome message in the embed. Max 1900 characters. | n.welcomer message This is the welcome message! |
+| `n.welcomer`| [output] | Sets the current channel to be where it outputs the message. | n.welcomer output |
 #### Twitch Information :
 This bot is capable of doing cross currency between Discord and Twitch. Meaning the points you are awareded from minigames and other rewards are able to be used between both platforms. If you earn 20 coins, you get those 20 coins both on twitch and discord. (shop and others incoming soon enough).
 - To get started, head over to the [TWITCH](https://www.twitch.tv/leviathanapp), then go in CHAT(even if offline), and type n.susbcribe. Or, click [HERE](https://www.twitch.tv/leviathanapp/chat) to get directly to chat, and type n.subscribe
