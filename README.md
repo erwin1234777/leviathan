@@ -133,6 +133,7 @@ This bot is capable of doing cross currency between Discord and Twitch. Meaning 
 | `n.followage`| [Blank] | Follow info about the user who uses command towards the streamer |n.followage|
 | `n.followers`| [Blank] | Total followers the streamer has |n.followers|
 | `n.gamble`| [Amount] | Gambles the current amount |n.gamble 20|
+| `n.give`| [@User + Amount] | Gives a mentioned user(@User) coins |n.give @LeviathanAPP 20|
 | `n.help`| [Blank] | Help info |n.help|
 | `n.instagram`| [Blank] | Displays the Streamer instagram link/message |n.instagram|
 | `n.instagram`| [set] | Sets the instagram command message |n.instagram set [Link]|
