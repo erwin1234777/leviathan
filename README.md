@@ -142,6 +142,7 @@ This bot is capable of doing cross currency between Discord and Twitch. Meaning 
 | `n.lurk`| [set] | Sets the lurk command message to display |n.lurk set [Message]|
 | `n.mixer`| [Blank] | Displays the Streamer mixer link/message |n.mixer|
 | `n.mixer`| [set] | Sets the mixer command message |n.mixer set [Link]|
+| `n.poll`| [Elements] + time(seconds) | Makes a poll in chat |n.poll [Minecraft, skyrim] 60|
 | `n.prefix`| [Prefix] | Changes the bot prefix, MAXIMUM 3 CHARS |n.prefix !|
 | `n.reload`| [Blank] | NOT PUBLIC, reloads the commands of the bot |n.reload|
 | `n.reminder`| [s/m/h/d] + [reminder] | Reminder command. use s(second)m(minutes)h(hours)d(days) to specify time |n.reminder 10m Remind me!|
