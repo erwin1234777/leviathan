@@ -16,6 +16,7 @@ Simply click [HERE](https://discordapp.com/oauth2/authorize?client_id=6793431938
 #### Admin tools: 
 - Purge commands for user messages
 - Clear bot messages
+- Statistics
 
 #### Utility: 
 - Twitch/Discord Minigames crossplatform!
@@ -48,6 +49,8 @@ Click [HERE](https://discord.gg/6QEExsN)
 - Emotes that you post in chat
 - Amount of times you used the commands (analytics) 
 - The guild ID for moderation log purposes to prevent api abuse(constantly kicking/adding bot)
+- Messages WITHOUT content(i only store the fact that you sent a message, not what it has), for analytic commands
+- Join/Leave notifications
 
 Remove permission Administrator if you wish, or leave it as is.
 Administrator is NOT required, though you wont have any permission problems with the bot
@@ -102,6 +105,7 @@ Administrator is NOT required, though you wont have any permission problems with
 | `n.slap`| [@user] | Roleplay command | n.slap @Leviathan |
 | `n.snipe`| [Blank] | Display last deleted message in that channel | n.snipe |
 | `n.speak`| [Message] | NOT FULLY IMPLEMENTED, wait until full release | n.speak Some Message |
+| `n.stats`| [all/query] | Used to see messages in guild. [-me/-author] for your messages, -channel for messages in channel, all for all message stats | n.speak Some Message |
 | `n.stop`| [Blank] | NOT PUBLIC, kills the bot in an emergency. Alias [n.kill] | n.stop |
 | `n.tag`| [Tag Name] | Displays the content of that tag | n.tag some tag |
 | `n.tag edit`| [Tag Name] [New Content] | Edits your tag by name, use quotation marks for multi worded tags | n.tag edit "my tag" some new content here |
