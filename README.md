@@ -72,7 +72,8 @@ Administrator is NOT required, though you wont have any permission problems with
 | `n.dec`| [Base64 String] | Decodes whatever you typed from Base64 | n.dec VGhpcyBpcyBTVVBFUiBmdW4= |
 | `n.embed`| [Anything] | Sends an embed containing your arguments | n.embed Embeds are cool |
 | `n.enc`| [Anything] | Encodes whatever you typed into Base64 | n.enc This is SUPER fun |
-| `n.gamble`| [Amuont] | Gambles the amount of points specified |n.gamble 50|
+| `n.gamble`| [Amount] | Gambles the amount of points specified |n.gamble 50|
+| `n.give`| [Amount] | Gives a @user [Amount] of coins |n.give @Erwin 10|
 | `n.guilds`| [Blank] | NOT PUBLIC, for debugging. Display guilds per ID and their NAME | n.guild |
 | `n.help`| [Blank] | Gives you the link to this doc, in embed format | n.help |
 | `n.info`| [Blank] | Displays all the info about the bot | n.info |
