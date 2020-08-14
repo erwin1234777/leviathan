@@ -94,6 +94,11 @@ Administrator is NOT required, though you wont have any permission problems with
 | `n.punch`| [@User] | Roleplay command | n.punch @Leviathan |
 | `n.purge`| [@User] + [Optional 1-100 messages] | Purges messages based on @user + optional amount. if not set, it will default to 50 messages FETCHED(how far up in chat it goes), NOT deleted. Also accepts All/all as a parameter, then it clears all messages in chat | n.purge @Erwin 100 |
 | `n.quote`| [MessageID or MessageLink] | Quotes the message you wanted to be quoted | n.quote 709892147935182849 |
+| `n.redeem`| [Pack Name] | Redeems a pack! | n.redeem test |
+| `n.redeem create`| [name, price, description] | Creates a pack, arguments divided by comma! | n.redeem create test, 1, description |
+| `n.redeem edit`| [name, price, description] | Edits a pack, arguments divided by comma! | n.redeem edit test, 2, new description |
+| `n.redeem delete`| [name] | Deletes a pack | n.redeem delete test |
+| `n.redeem all/list`| [Blank] | Displays all packs in the current guild | n.redeem list |
 | `n.reload`| [Blank] | NOT PUBLIC, used to reload the bot commands cache |n.reload|
 | `n.register`| [Blank] | Sends you info about what you need to do to register on discord minigames |n.register|
 | `n.remove`| [Blank] | Removes the channel from whitelist, making the bot not be able to use NSFW commands there anymore | n.remove |
