@@ -19,6 +19,7 @@ Simply click [HERE](https://discordapp.com/oauth2/authorize?client_id=6793431938
 - Statistics
 
 #### Utility: 
+- EMOTES without NITRO!
 - Twitch/Discord Minigames crossplatform!
 - User info aswell as account creation date for identifying alts
 - Poll commands
@@ -36,7 +37,6 @@ Simply click [HERE](https://discordapp.com/oauth2/authorize?client_id=6793431938
 - Boss Fights 
 
 #### Incoming features/Work in Progress:
-- Emotes database so you can use emotes via the bot without nitro
 - Crosschat, so you can talk to your Discord Chat while streaming on twitch, and vice versa!
                      
 ### Need support? 
@@ -70,6 +70,7 @@ Administrator is NOT required, though you wont have any permission problems with
 | `n.clear`| [Optional 1-100 messages] | Deletes THIS BOT ONLY messages, also the optional messages is messages FECTHED, not messages DELETED | n.clear 63 | 
 | `n.crosschat`| [default/enable/allowed] | NOT FULLY IMPLEMENTED, wait until release! | n.crosschat enable |
 | `n.dec`| [Base64 String] | Decodes whatever you typed from Base64 | n.dec VGhpcyBpcyBTVVBFUiBmdW4= |
+| `n.e`| [Message] | If theres an emote in chat [:emoteName:] it'll send in chat as you with that emote! | n.e :notlikechika: free nitro bot lmao |
 | `n.embed`| [Anything] | Sends an embed containing your arguments | n.embed Embeds are cool |
 | `n.enc`| [Anything] | Encodes whatever you typed into Base64 | n.enc This is SUPER fun |
 | `n.gamble`| [Amount] | Gambles the amount of points specified |n.gamble 50|
@@ -82,6 +83,7 @@ Administrator is NOT required, though you wont have any permission problems with
 | `n.lat`| [Blank] | Check Bot's Latency |n.lat|
 | `n.link`| [token] | Used for linking account with twitch. Grab token from Twitch Chat |n.token [Token]|
 | `n.loli`| [Blank] | Tells you not to lewd lolis, for legal reasons(there arent any blacklisted tags, you are responsible for what you use my bot for) | n.loli |
+| `n.market`| [Blank] |Shop for buying Emote Tokens so you can use emotes in chat | n.market |
 | `n.meme`| [Blank] | Sends a meme/post in chat | n.meme |
 | `n.mine`| [Blank] | Tells in chat that whatever emote you posted, i just stole it for myself | n.mine |
 | `n.nick`| [Anything] | Changes the bot nickname to whatever you want. Respects discord limits, {2-32} long nick | n.nick Safe For Work Bot |
