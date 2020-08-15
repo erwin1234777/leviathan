@@ -68,6 +68,7 @@ Administrator is NOT required, though you wont have any permission problems with
 | `n.boss`| [Blank] | Does a boss fight, and earns or loses coins based on it |n.boss|
 | `n.check`| [Blank] | Checks for the bot's permissions and displays it for you |n.check|
 | `n.clear`| [Optional 1-100 messages] | Deletes THIS BOT ONLY messages, also the optional messages is messages FECTHED, not messages DELETED | n.clear 63 | 
+| `n.count`| [Message] | Counts the amount of characters the message has | n.count four | 
 | `n.crosschat`| [default/enable/allowed] | NOT FULLY IMPLEMENTED, wait until release! | n.crosschat enable |
 | `n.dec`| [Base64 String] | Decodes whatever you typed from Base64 | n.dec VGhpcyBpcyBTVVBFUiBmdW4= |
 | `n.e`| [Message] | If theres an emote in chat [:emoteName:] it'll send in chat as you with that emote! | n.e :notlikechika: free nitro bot lmao |
