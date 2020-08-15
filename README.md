@@ -19,7 +19,7 @@ Simply click [HERE](https://discordapp.com/oauth2/authorize?client_id=6793431938
 - Statistics
 
 #### Utility: 
-- EMOTES without NITRO!
+- EMOTES without NITRO! 
 - Twitch/Discord Minigames crossplatform!
 - User info aswell as account creation date for identifying alts
 - Poll commands
