@@ -58,10 +58,10 @@ Administrator is NOT required, though you wont have any permission problems with
 ## Discord Commands
 | Command | Arguments| Description                    | Example |
 | --------|----------|--------------------------------|---------|
-| `n.add`| [Blank] | This add a NON NSFW channel into whitelist. For whatever reason, if you want NSFW in a channel not set NSFW, you can use this to allow bot  | n.add |
 | `n.acheck`| [UserID] | NOT PUBLIC, used for checking if player is already registered |n.acheck 188836645670223872|
- `n.acurrency`| [set/get/add/remove/reset] | NOT PUBLIC, used for setting amount, getting balance, removing currency, adding currency or reseting accounts to 0 |n.acurrency set 188836645670223872 300|
-  `n.nick`| [guildid/nickname] | NOT PUBLIC, used for removing pejorative nicknames in specific guilds|n.anick 628731905423966219 Leviathan|
+| `n.acurrency`| [set/get/add/remove/reset] | NOT PUBLIC, used for setting amount, getting balance, removing currency, adding currency or reseting accounts to 0 |n.acurrency set 188836645670223872 300|
+| `n.add`| [Blank] | This add a NON NSFW channel into whitelist. For whatever reason, if you want NSFW in a channel not set NSFW, you can use this to allow bot  | n.add |
+| `n.anick`| [guildid + nickname] | NOT PUBLIC, Changed the nickname in a certian guild. |n.anick 628731905423966219 Nickname! |
 | `n.announcement`| [toggle/message] | NOT PUBLIC, toggles announcement mode on/off on status. |n.announcement Ported to Typescript!|
 | `n.astatus`| [setstatus/setstream] | NOT PUBLIC, selects one of my status to be shown or stream for link to minigames |n.astatus setstream|
 | `n.balance`| [Optional userid] | checks your current amount of points |n.balance|
@@ -82,8 +82,10 @@ Administrator is NOT required, though you wont have any permission problems with
 | `n.give`| [Amount] | Gives a @user [Amount] of coins |n.give @Erwin 10|
 | `n.guilds`| [Blank] | NOT PUBLIC, for debugging. Display guilds per ID and their NAME | n.guild |
 | `n.help`| [Blank] | Gives you the link to this doc, in embed format | n.help |
+| `n.hug`| [@User] | RP Command, hugs someone | n.hug @Leviathan |
 | `n.info`| [Blank] | Displays all the info about the bot | n.info |
 | `n.invite`| [Blank] | Gets you the invite link for this bot |n.link|
+| `n.ipc`| [Blank] | NOT PUBLIC, used to manually connect to IPC pipe |n.ipc|
 | `n.kiss`| [@User] | Roleplay command |n.kiss @Leviathan|
 | `n.lat`| [Blank] | Check Bot's Latency |n.lat|
 | `n.lick`| [@User] | RP command, licks someone |n.lick @Leviathan |
@@ -100,15 +102,15 @@ Administrator is NOT required, though you wont have any permission problems with
 | `n.punch`| [@User] | Roleplay command | n.punch @Leviathan |
 | `n.purge`| [@User] + [Optional 1-100 messages] | Purges messages based on @user + optional amount. if not set, it will default to 50 messages FETCHED(how far up in chat it goes), NOT deleted. Also accepts All/all as a parameter, then it clears all messages in chat | n.purge @Erwin 100 |
 | `n.quote`| [MessageID or MessageLink] | Quotes the message you wanted to be quoted | n.quote 709892147935182849 |
-| `n.redeem`| [Pack Name] | Redeems a pack! | n.redeem test |
-| `n.redeem create`| [name, price, description] | Creates a pack, arguments divided by comma! | n.redeem create test, 1, description |
-| `n.redeem edit`| [name, price, description] | Edits a pack, arguments divided by comma! | n.redeem edit test, 2, new description |
-| `n.redeem delete`| [name] | Deletes a pack | n.redeem delete test |
 | `n.redeem all/list`| [Blank] | Displays all packs in the current guild | n.redeem list |
-| `n.reload`| [Blank] | NOT PUBLIC, used to reload the bot commands cache |n.reload|
+| `n.redeem create`| [name, price, description] | Creates a pack, arguments divided by comma! | n.redeem create test, 1, description |
+| `n.redeem delete`| [name] | Deletes a pack | n.redeem delete test |
+| `n.redeem edit`| [name, price, description] | Edits a pack, arguments divided by comma! | n.redeem edit test, 2, new description |
+| `n.redeem`| [Pack Name] | Redeems a pack! | n.redeem test |
 | `n.register`| [Blank] | Sends you info about what you need to do to register on discord minigames |n.register|
-| `n.remove`| [Blank] | Removes the channel from whitelist, making the bot not be able to use NSFW commands there anymore | n.remove |
+| `n.reload`| [Blank] | NOT PUBLIC, used to reload the bot commands cache |n.reload|
 | `n.reminder`| [Time] [Reminder] | uses s(secs),m(mins),h(hours),d(days),w,(weeks),m(months) as timers.  | n.reminder 2h 52m 2s Remind me to do this! |
+| `n.remove`| [Blank] | Removes the channel from whitelist, making the bot not be able to use NSFW commands there anymore | n.remove |
 | `n.say`| [Anything] | The bot says whatever comes after the message, be it an emote or a message | n.say This is useless |
 | `n.search`| [Search arguments] | Searches for your doujinshi. Check [INFO](https://nhentai.net/info/) for advanced search . Select which doujinshi you want to read by reacting with :book: . Blacklist tags with -| n.search blonde -loli|
 | `n.servers`| [Blank] | Display the amount of Servers, Channels, and Users the bot is currently serving (only displays online users) | n.servers |     
@@ -118,11 +120,12 @@ Administrator is NOT required, though you wont have any permission problems with
 | `n.speak`| [Message] | NOT FULLY IMPLEMENTED, wait until full release | n.speak Some Message |
 | `n.stats`| [all/query] | Used to see messages in guild. [-me/-author] for your messages, -channel for messages in channel, all for all message stats | n.speak Some Message |
 | `n.stop`| [Blank] | NOT PUBLIC, kills the bot in an emergency. Alias [n.kill] | n.stop |
-| `n.tag`| [Tag Name] | Displays the content of that tag | n.tag some tag |
+| `n.sudo`| [Message] | RP Command, will delete your message and send it with the bot(RP talk as the bot) | n.sudo Some message here|
+| `n.tag delete`| [Tag Name] | Deletes the tag, if you are the owner of it | n.tag delete "some tag" |
 | `n.tag edit`| [Tag Name] [New Content] | Edits your tag by name, use quotation marks for multi worded tags | n.tag edit "my tag" some new content here |
 | `n.tag info`| [Tag Name] | Displays the info about that tag | n.tag info leviathan |
 | `n.tag transfer`| [Tag Name][@User] | Transfers the tag ownership to the person you are @'ing, use quotation marks for multi worded tags | n.tag transfer "leviathan bot" @Erwin|
-| `n.tag delete`| [Tag Name] | Deletes the tag, if you are the owner of it | n.tag delete "some tag" |
+| `n.tag`| [Tag Name] | Displays the content of that tag | n.tag some tag |
 | `n.uptime`| [Blank] | Display the bots uptime | n.uptime |
 | `n.user`| [ID or @User] | Display user info even if they are not in the server | n.user 188836645670223872 |
 | `n.welcomer`| [enable/disable] | Enable/Disable will turn on/off the feature(off by default). | n.welcomer enable |
