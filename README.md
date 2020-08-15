@@ -71,6 +71,7 @@ Administrator is NOT required, though you wont have any permission problems with
 | `n.count`| [Message] | Counts the amount of characters the message has | n.count four | 
 | `n.crosschat`| [default/enable/allowed] | NOT FULLY IMPLEMENTED, wait until release! | n.crosschat enable |
 | `n.dec`| [Base64 String] | Decodes whatever you typed from Base64 | n.dec VGhpcyBpcyBTVVBFUiBmdW4= |
+| `n.duel`| [@User + Amount] | Duels a user with a wager | n.duel @Leviathan 30 |
 | `n.e`| [Message] | If theres an emote in chat [:emoteName:] it'll send in chat as you with that emote! | n.e :notlikechika: free nitro bot lmao |
 | `n.embed`| [Anything] | Sends an embed containing your arguments | n.embed Embeds are cool |
 | `n.enc`| [Anything] | Encodes whatever you typed into Base64 | n.enc This is SUPER fun |
