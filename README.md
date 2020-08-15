@@ -75,6 +75,9 @@ Administrator is NOT required, though you wont have any permission problems with
 | `n.e`| [Message] | If theres an emote in chat [:emoteName:] it'll send in chat as you with that emote! | n.e :notlikechika: free nitro bot lmao |
 | `n.embed`| [Anything] | Sends an embed containing your arguments | n.embed Embeds are cool |
 | `n.enc`| [Anything] | Encodes whatever you typed into Base64 | n.enc This is SUPER fun |
+| `n.farewell`| [enable/disable] | Enable/Disable will turn on/off the feature(off by default). | n.farewell enable |
+| `n.farewell`| [message] | Sets the farewell message in the embed. Max 1900 characters. | n.farewell message This is the farewell message! |
+| `n.farewell`| [output] | Sets the current channel to be where it outputs the message. | n.farewell output |
 | `n.gamble`| [Amount] | Gambles the amount of points specified |n.gamble 50|
 | `n.give`| [Amount] | Gives a @user [Amount] of coins |n.give @Erwin 10|
 | `n.guilds`| [Blank] | NOT PUBLIC, for debugging. Display guilds per ID and their NAME | n.guild |
