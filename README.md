@@ -86,6 +86,7 @@ Administrator is NOT required, though you wont have any permission problems with
 | `n.invite`| [Blank] | Gets you the invite link for this bot |n.link|
 | `n.kiss`| [@User] | Roleplay command |n.kiss @Leviathan|
 | `n.lat`| [Blank] | Check Bot's Latency |n.lat|
+| `n.lick`| [@User] | RP command, licks someone |n.lick @Leviathan |
 | `n.link`| [token] | Used for linking account with twitch. Grab token from Twitch Chat |n.token [Token]|
 | `n.loli`| [Blank] | Tells you not to lewd lolis, for legal reasons(there arent any blacklisted tags, you are responsible for what you use my bot for) | n.loli |
 | `n.market`| [Blank] |Shop for buying Emote Tokens so you can use emotes in chat | n.market |
