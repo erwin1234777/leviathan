@@ -30,6 +30,8 @@ Simply click [HERE](https://discordapp.com/oauth2/authorize?client_id=6793431938
 - Memes
 - Rp Commands
 - Welcomer
+- Farewell Notifications
+- Starboard
 
 #### Currency/Minigames:
 - Balance
