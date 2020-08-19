@@ -52,7 +52,8 @@ Click [HERE](https://discord.gg/6QEExsN)
 - Join/Leave notifications
 
 Remove permission Administrator if you wish, or leave it as is.
-Administrator is NOT required, though you wont have any permission problems with the bot
+Administrator is NOT required, though you wont have any permission problems with the bot,
+Simply dm the author Not Erwin#8753 if you request data deletion
 
 ## Twitch commands can be done with 'n. gamble'(with space between . and command) or 'n;gamble' to avoid link detection if you have links disallowed!
 ## For Visual Tutorial, click here [JUMP](https://github.com/erwin1234777/leviathan#visual-tutorial)
