@@ -61,7 +61,6 @@ Simply dm the author Not Erwin#8753 if you request data deletion
 | --------|----------|--------------------------------|---------|
 | `n.acheck`| [UserID] | NOT PUBLIC, used for checking if player is already registered |n.acheck 188836645670223872|
 | `n.acurrency`| [set/get/add/remove/reset] | NOT PUBLIC, used for setting amount, getting balance, removing currency, adding currency or reseting accounts to 0 |n.acurrency set 188836645670223872 300|
-| `n.add`| [Blank] | This add a NON NSFW channel into whitelist. For whatever reason, if you want NSFW in a channel not set NSFW, you can use this to allow bot  | n.add |
 | `n.anick`| [guildid + nickname] | NOT PUBLIC, Changed the nickname in a certian guild. |n.anick 628731905423966219 Nickname! |
 | `n.announcement`| [toggle/message] | NOT PUBLIC, toggles announcement mode on/off on status. |n.announcement Ported to Typescript!|
 | `n.astatus`| [setstatus/setstream] | NOT PUBLIC, selects one of my status to be shown or stream for link to minigames |n.astatus setstream|
@@ -111,9 +110,7 @@ Simply dm the author Not Erwin#8753 if you request data deletion
 | `n.register`| [Blank] | Sends you info about what you need to do to register on discord minigames |n.register|
 | `n.reload`| [Blank] | NOT PUBLIC, used to reload the bot commands cache |n.reload|
 | `n.reminder`| [Time] [Reminder] | uses s(secs),m(mins),h(hours),d(days),w,(weeks),m(months) as timers.  | n.reminder 2h 52m 2s Remind me to do this! |
-| `n.remove`| [Blank] | Removes the channel from whitelist, making the bot not be able to use NSFW commands there anymore | n.remove |
 | `n.say`| [Anything] | The bot says whatever comes after the message, be it an emote or a message | n.say This is useless |
-| `n.search`| [Search arguments] | Searches for your doujinshi. Check [INFO](https://nhentai.net/info/) for advanced search . Select which doujinshi you want to read by reacting with :book: . Blacklist tags with -| n.search blonde -loli|
 | `n.servers`| [Blank] | Display the amount of Servers, Channels, and Users the bot is currently serving (only displays online users) | n.servers |     
 | `n.shouldi`| [Anything] | Like 8ball, it will tell you if you should do something or not. Returns true or false | n.shouldi do my dishes now? |
 | `n.slap`| [@user] | Roleplay command | n.slap @Leviathan |
