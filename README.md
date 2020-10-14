@@ -5,6 +5,7 @@
 This bot is made using Typescript, using discord.js library. 
 
 It is a Multiuse bot with tools that can be fun to use in large servers.
+This bot is Safe For Work
 
 # Add this bot to your server! 
 Simply click [HERE](https://discordapp.com/oauth2/authorize?client_id=679343193845661716&scope=bot&permissions=1543892089) to add it.
@@ -95,7 +96,6 @@ Simply dm the author Not Erwin#8753 if you request data deletion
 | `n.meme`| [Blank] | Sends a meme/post in chat | n.meme |
 | `n.mine`| [Blank] | Tells in chat that whatever emote you posted, i just stole it for myself | n.mine |
 | `n.nick`| [Anything] | Changes the bot nickname to whatever you want. Respects discord limits, {2-32} long nick | n.nick Safe For Work Bot |
-| `n.nwaifu`| [Blank] | This is a big command used for building the JSON required to add a new waifu to [Is-Your-Waifu-Legal](https://github.com/yourWaifu/is-your-waifu-legal), it uses [NaN] as a skippeable argument and [,] as a separator | n.nwaifu |
 | `n.pat`| [@User] | RP command, pats someone | n.pat @Leviathan |
 | `n.permbit`| [Perm Bit Field] | Resolves a Permission Bit field from discord | n.permbit 2146958839 |
 | `n.poll` | [Amount],[Description], [content1]... | make sure the 1-10 match the amount of things you want in the poll. If you do n.poll 4, its expecting a description + 4 elements | n.poll 3, This is the description/title, this is element 1, element 2, element 3 |
