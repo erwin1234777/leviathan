@@ -130,7 +130,7 @@ Simply dm the author Not Erwin#8753 if you request data deletion
 | `n.welcomer`| [message] | Sets the welcome message in the embed. Max 1900 characters. | n.welcomer message This is the welcome message! |
 | `n.welcomer`| [output] | Sets the current channel to be where it outputs the message. | n.welcomer output |
 #### Twitch Information :
-This bot is capable of doing cross currency between Discord and Twitch. Meaning the points you are awareded from minigames and other rewards are able to be used between both platforms. If you earn 20 coins, you get those 20 coins both on twitch and discord. (shop and others incoming soon enough).
+This bot is capable of doing cross currency between Discord and Twitch. Meaning the points you are awarded from minigames and other rewards are able to be used between both platforms. If you earn 20 coins, you get those 20 coins both on twitch and discord. (shop and others incoming soon enough).
 - To get started, head over to the [TWITCH](https://www.twitch.tv/leviathanapp), then go in CHAT(even if offline), and type n.susbcribe. Or, click [HERE](https://www.twitch.tv/leviathanapp/chat) to get directly to chat, and type n.subscribe
 - After it has been added, type anything in your stream chat to check if the bot replies to it (it will register you on the first message you send), alternatively, try n.test to see if the bot is properly placed in your chat.
 - That's it, users are now able to do the commands listed in the Minigame section and spend those points across your Discord and your Stream chat! 
