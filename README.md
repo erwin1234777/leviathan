@@ -91,7 +91,6 @@ Simply dm the author Not Erwin#8753 if you request data deletion
 | `n.lat`| [Blank] | Check Bot's Latency |n.lat|
 | `n.lick`| [@User] | RP command, licks someone |n.lick @Leviathan |
 | `n.link`| [token] | Used for linking account with twitch. Grab token from Twitch Chat |n.token [Token]|
-| `n.loli`| [Blank] | Tells you not to lewd lolis, for legal reasons(there arent any blacklisted tags, you are responsible for what you use my bot for) | n.loli |
 | `n.market`| [Blank] |Shop for buying Emote Tokens so you can use emotes in chat | n.market |
 | `n.meme`| [Blank] | Sends a meme/post in chat | n.meme |
 | `n.mine`| [Blank] | Tells in chat that whatever emote you posted, i just stole it for myself | n.mine |
